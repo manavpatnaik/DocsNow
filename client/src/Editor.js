@@ -1,9 +1,6 @@
 import { useCallback } from "react";
 import Quill from "quill";
-// const Size = require("quill/");
 import "quill/dist/quill.snow.css";
-
-// Quill.register(Size, true);
 
 const TOOLBAR_CONFIG = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
